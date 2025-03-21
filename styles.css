@@ -9,10 +9,24 @@ body{
     color: purple;
 }
 
+h1{
+    text-align: center;
+}
 /*References the div with the class attribute of "container"*/
 .container{
     /*Declares that the element and its children(the elements inside it) can be styled with flexbox*/
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.container div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8%;
+
 }
 
 
